@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="1.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>MCG web Solutions</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <nav>
+                <b>
+                    <a href="./index.html">Início</a>
+                    <a href="./eletronica.html">Eletrônica</a>
+                    <a href="./banco.html">Banco de dados</a>
+                    <a href="./algoritimos.html">Algoritimos e Fluxograma</a>
+                    <a href="./redes.html">Redes</a>
+                    <a href="./programa.html">Programação</a>
+                </b>
+            </nav>
+        </header>
+        <main>
+            <h1>Programação</h1>
+            <hr>
+            <p>
+                Bem-vindo ao nosso espaço dedicado à Programação! Aqui apresentamos todos os códigos dos nossos projetos. Nossos projetos são feitos de acordo com o que o cliente solicita e a baixo temos o mostruário do nosso código.
+            </p>
+            <hr>
+            <div class="programa">
+                <h2>Soma de 2 Matrizes Especiais</h2>
+                <hr>
+                <p>
+                    Elabore um programa que gera duas matrizes uma matriz 7 x 7, sendo uma do tipo do tipo diagonal secundária, cujos os elementos da diagonal secundária são iguais a 5 e outra matriz diagonal principal, cujos elementos são iguais a 7. Após gerar as duas matrizes, faça a soma entre elas. Use o laço “for” para elaborar a lógica do programa.
+                </p>
+                <hr>
+                <button onclick="exe1()">Calcular</button>
+                <div id="res1"></div>
+                <img src="./exe1.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Soma dos Números Pares e Ímpares dentro de uma Matriz</h2>
+                <hr>
+                <p>
+                    Elabore um programa que gera uma matriz 7 x 7 com números aleatórios em um intervalo de 1 à 20. Após gerar a matriz, faça a soma dos números pares e ímpares da matriz separadamente. Use o laço “for” para elaborar a lógica do programa.
+                </p>
+                <hr>
+                <button onclick="exe2()">Calcular</button>
+                <div id="res2"></div>
+                <img src="./exe2.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Soma dos Números nas Colunas Ímpares</h2>
+                <hr>
+                <p>
+                    Elabore um programa que gera uma matriz 8 x 8 de números aleatórios em um intervalo de 1 à 50. Faça a soma dos elementos das colunas cujos os índices são ímpares. Use o laço “for” para elaborar a lógica do programa.
+                </p>
+                <hr>
+                <button onclick="exe3()">Calcular</button>
+                <div id="res3"></div>
+                <img src="./exe3.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Ordenação de array com Bubble Sort</h2>
+                <hr>
+                <p>
+                    Algoritmo de ordenação Bubble Sort para ordenar um array de números inteiros em ordem crescente. O script exibe o array original e o array ordenado após o processo de ordenação.
+                </p>
+                <hr>
+                <div class="bottoes">
+                    <button onclick="gerarBubble()">Gerar Array</button>
+                    <button onclick="ordenarBubble()">Ordenar</button>
+                    <button onclick="inverterBubble()">Inverter</button>
+                </div>
+                <div id="res4"></div>
+                <img src="./bubble.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Ordenação de array com Selection Sort</h2>
+                <hr>
+                <p>
+                    Algoritmo de ordenação Selection Sort para ordenar um array de números inteiros em ordem crescente. O script exibe o array original e o array ordenado após o processo de ordenação.
+                </p>
+                <hr>
+                <div class="bottoes">
+                    <button onclick="gerarSelection()">Gerar Array</button>
+                    <button onclick="ordenarSelection()">Ordenar</button>
+                    <button onclick="inverterSelection()">Inverter</button>
+                </div>
+                <div id="res5"></div>
+                <img src="./selection.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Ordenação de array com Insert Sort</h2>
+                <hr>
+                <p>
+                    Algoritmo de ordenação Insert Sort para ordenar um array de números inteiros em ordem crescente. O script exibe o array original e o array ordenado após o processo de ordenação.
+                </p>
+                <hr>
+                <div class="bottoes">
+                    <button onclick="gerarInsert()">Gerar Array</button>
+                    <button onclick="ordenarInsert()">Ordenar</button>
+                    <button onclick="inverterInsert()">Inverter</button>
+                </div>
+                <div id="res6"></div>
+                <img src="./insert.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Média de números aleatórios com Laço For</h2>
+                <hr>
+                <p>
+                    Dado um array de números aleatórios, o programa calcula a média de seus valores usando um laço for para iterar pelos elementos do array, acumulando a soma de todos os elementos.
+                </p>
+                <hr>
+                <button onclick="exeFor()">Calcular</button>
+                <div id="res7"></div>
+                <img src="./for.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Fatoração de números com Laço While</h2>
+                <hr>
+                <p>
+                    O Usuário insere um número aleatório, e a partir de um laço while, será calculado seu fatorial
+                </p>
+                <hr>
+                <input type="number" id="num8">
+                <button onclick="exeWhile()">Calcular</button>
+                <div id="res8"></div>
+                <img src="./while.png" alt="">
+            </div>
+            <hr>
+            <div class="programa">
+                <h2>Indentificação de Números com estrutura If-Else</h2>
+                <hr>
+                <p>
+                    O programa verifica se um número é positivo, negativo ou zero usando if-else e exibe uma mensagem correspondente.
+                </p>
+                <hr>
+                <input type="number" id="num9">
+                <button onclick="exeIf()">Calcular</button>
+                <div id="res9"></div>
+                <img src="./if.png" alt="">
+            </div>
+            <hr>
+            <div class="programa" id="dom">
+                <h2>Manipulação com o DOM (Document Object Model)</h2>
+                <hr>
+                <p>
+                    Esse programa fara com que crie uma div com ID, e dentro dela tera uma paragrafo falando alguma coisa 
+                </p>
+                <button onclick="exeDOM()">Gerar div</button>
+            </div>
+             <hr>
+        </main>
+        <footer>
+            <small>Dev: Manuela Cristina Torres Guimarães</small>
+        </footer>
+    </div>
+</body>
+
+</html>
